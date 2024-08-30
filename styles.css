@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* SCREEN 1 */
+.section-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 50px;
+    position: relative;
+}
+.skip {
+   position: absolute;
+   top: -150px;
+   right: 20px;
+   border: none ;
+   padding: 5px 10px;
+   border-radius: 10px;
+   font-size: 20px;
+   background-color: white;
+}
+
+.page-control {
+    width: 20%;
+    margin-left: -20px;
+}
+
+
+/* SCREEN 2 */
+.screen2-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 40px 30px 0;
+}
+.album {
+    position: relative;
+}
+.album img{
+    border-radius: 20px;
+    box-shadow: 0px 10px 10px rgba(36, 1, 1, 0.582);
+    cursor: pointer;
+}
+.info{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: rgb(250, 247, 247);
+    background-color: rgba(0, 0, 0, 0.627);
+    padding: 5px;
+    border-radius: 10px;
+    display: flex;
+    gap: 40px;
+    
+}
+.info-name {
+    display: flex;
+    gap: 10px;
+}
+.info p{
+    font-size: 12px;
+}
+.info button{
+    padding: 0 15px;
+    border-radius: 20px;
+    background-color: rgba(240, 248, 255, 0.557);
+    color: white;
+}
+.top-mix-see-all,
+.recently-played-see-all {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 40px 10px 0;
+}
+.top-mix {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px 30px 0 ;
+}
+.card{
+    position: relative;
+}
+.top-mix button{
+    position: absolute;
+    bottom: 10px;
+    left: 5px;
+    background-color: rgba(0, 0, 0, 0.653);
+    color: white;
+    padding: 2px;
+    border-radius: 10px;
+
+}
+
+.top-mix img,
+.recently img{
+    width: 120px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+/* SCREEN 3 */
+
+#songImage {
+    border-radius: 20px;
+    margin: 20px 0;
+    width: 300px;
+    height: 300px;
+}
+.title {
+    display: flex;
+    justify-content: space-between;
+}
+.title img{
+    width: 30px;
+}
+#singer {
+    padding: 5px 0 70px 0;
+}
+#back-icon {
+    cursor: pointer;
+}
+
+
+.controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;;
+    width: 70vw;
+}
+
+.prev-button,
+.play-button,
+.next-button {
+    background: none;
+    border: none;
+    font-size: 18px;
+    color: #030000;
+    cursor: pointer;
+}
+
+
+
+#progress-bar {
+    flex-grow: 2;
+    margin: 0 15px;
+}
+
+#volume-control {
+    width: 50px;
+}

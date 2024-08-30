@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music App</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    
+    <!-- SCREEN 1 -->
+    <section class="screen">
+        <div class="section-1">
+           <div>
+            <button class="skip">Skip</button>
+           </div>
+            <img class="headset" src="https://www.globalbrand.com.bd/image/cache/catalog/HEADPHONE/A4TECH/A4Tech-Bloody-MH360-Bluetooth-v5.3-Wireless-Headset---White-2-320x320.jpg" alt="headset">
+            <div>
+                <h1>
+                    Playio.
+                </h1>
+                <p>
+                    Playio supports artists with tools to create, release, and  
+                    measure music across a global<br> stage. 
+                </p>
+                <div>
+                    <img class="page-control" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmlxVAk-DAsAXa6mW5CiPH_QMPvN9nxMaMlhC7Ss8kzCrJEMmNrMoKZohFA_56wxFgWw&usqp=CAU" alt="page control">
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+     <!-- SCREEN 2 -->
+    <section class="screen">
+       <div id="screenTwoSetion"c>
+        <nav class="screen2-nav">
+            <span class="material-symbols-outlined">
+                widgets
+                </span>
+
+                <span class="material-symbols-outlined">
+                    library_music
+                    </span>
+        </nav>
+        <div class="album">
+            <img src="assets/owo_oluwa.jpeg" id="albumImage">
+            <div class="info">
+                <div>
+                    <div class="info-name">
+                        <h3>P.Daniel</h3>
+                        <span class="material-symbols-outlined">
+                          check_circle
+                          </span>
+                    </div>
+                      <p>1,322,799,000 Streams</p>
+                </div>
+                <button>Follow +</button>
+            </div>
+        </div>
+
+        <div>
+            <div class="top-mix-see-all">
+                <h3>Top Mix</h3>
+                <p>See all</p>
+            </div>
+            <div  class="top-mix">
+                <div class="card">
+                    <img src="assets/e_ti_tobi_to.jpeg" id="cardImage1">
+                    <button>E ti tobi to</button>
+                </div>
+                <div class="card">
+                    <img src="assets/images.jpeg" id="cardImage2">
+                    <button>I Give You Control</button>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <div class="recently-played-see-all">
+                <h3>Recently Played</h3>
+                <p>See all</p>
+            </div>
+            <div  class="recently">
+                <div>
+                    <img src="assets/e_ti_tobi_to.jpeg" id="cardImage3">
+                    <button>E ti tobi to</button>
+                </div>
+                <div>
+                    <img src="assets/images.jpeg" id="cardImage4">
+                    <button>I Give You Control</button>
+                </div>
+            </div>
+        </div>
+       </div>
+    </section>
+
+     <!-- SCREEN 3 -->
+    <section class="screen">
+      <div class="currentSection">
+        <!-- <h3>Current Track</h3> -->
+        <div id="songDetails">
+            <img src="assets/e_ti_tobi_to.jpeg" alt="Song Image" id="songImage">
+            <div class="title">
+                <h3 id="songTitle">Song Title</h3>
+                <img src="assets/download.jpeg">
+            </div>
+            <p id="singer">Singer</p>
+        </div>
+        <div 
+          class="showThird" id="audioPlayer"></div>
+      </div>
+      <!-- <div class="controls"> 
+        <button class="prev-button" id="previous">&#9664;&#9664;</button>
+        <button class="play-button" id="playPause">Play</button>
+        <button class="next-button" id="next">&#9654;&#9654;</button>
+       
+        <input type="range" id="volume-control" value="100" min="0" max="100">-->
+    </div>
+      <button onClick="history_back()"><span class="material-symbols-outlined" id="back-icon">
+        keyboard_return
+        </span></button>
+    </section>
+</body>
+<script src="script.js"></script>
+</html>
